@@ -13,6 +13,8 @@
 library(tidyverse)
 library(qpcR)
 library(MASS)
+library(readxl)
+library(plot3D)
 
 #################
 ## Question 1: ##
@@ -163,10 +165,7 @@ plot(fit.grades.e,pi$residuals, ylim=c(-5, 5)) #PRESS - POINT PRESENT
 #################
 ## Question 2: ##
 #################
-library(tidyverse)
-library(readxl)
-library(MASS)
-library(plot3D)
+
 # For this problem you will use the file "data-table-B2.XLS".
 #
 prob2 <- read_xls('data-table-B2.xls')
