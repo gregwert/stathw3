@@ -194,7 +194,7 @@ ei<-resid(lm.partial)
 SS_res <- sum(ei^2)
 df_res <- 26
 MS_res <- SS_res / df_res
-di <- res / sqrt(MS_res)
+di <- ei / sqrt(MS_res)
 ## Find the studentized residuals
 ri<-rstandard(lm.partial)
 # Find the PRESS residuals
