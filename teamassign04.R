@@ -1,10 +1,12 @@
-
 ###########################
 #                         #
 #   Team Assignment 4     #
 #                         #
 ###########################
 
+# Group 7 | Kennan Grant ,	Elizabeth Homan ,	Adrian Mead ,	Gregory Wert
+
+#################################################################
 ## Please submit one set of answers per team.                  ##
 ## Your answers may be submitted as an annotated R file.       ##
 ## Please submit your plots in a PDF as a separate attachment. ##
